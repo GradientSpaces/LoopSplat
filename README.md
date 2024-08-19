@@ -2,7 +2,7 @@
 
   <h2 align="center">LoopSplat: Loop Closure by Registering 3D Gaussian Splats</h2>
   <p align="center">
-    <a href="https://https://www.zhuliyuan.net/"><strong>Liyuan Zhu</strong></a>
+    <a href="https://www.zhuliyuan.net/"><strong>Liyuan Zhu</strong></a>
     ·
     <a href="https://unique1i.github.io/"><strong>Yue Li</strong></a>
     ·
