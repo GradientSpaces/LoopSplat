@@ -116,7 +116,7 @@ Here we elaborate on how to load the necessary data, configure Gaussian-SLAM for
   ``` 
   Please note the evaluation of ```depth_L1``` metric requires reconstruction of the mesh, which in turns requires headless installation of open3d if you are running on a cluster.
   
-  ## Contact
+  ## 📧 Contact
   If you have any questions regarding this project, please contact Liyuan Zhu (liyzhu@stanford.edu).
 
 # ✏️ Acknowledgement
