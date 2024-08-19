@@ -1,0 +1,10 @@
+inherit_from: configs/ScanNet/scannet.yaml
+data:
+  input_path: /home/liyuanzhu/projects/GSR/MonoGS/datasets/scannet/scene0207_00
+  output_path: output/ScanNet/scene0207
+  scene_name: scene0207_00
+cam: 
+  fx: 577.6
+  fy: 578.7
+  cx: 318.9
+  cy: 242.7

@@ -1,0 +1,14 @@
+inherit_from: configs/ScanNet/scannet.yaml
+data:
+  input_path: /home/liyuanzhu/projects/GSR/MonoGS/datasets/scannet/scene0169_00
+  output_path: output/ScanNet/scene0169
+  scene_name: scene0169_00
+cam: 
+  H: 480 
+  W: 640
+  fx: 574.5
+  fy: 577.6
+  cx: 322.5
+  cy: 238.6
+  depth_scale: 1.
+  crop_edge: 12

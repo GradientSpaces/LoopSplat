@@ -1,0 +1,3 @@
+[submodule "thridparty/Hierarchical-Localization"]
+	path = thridparty/Hierarchical-Localization
+	url = https://github.com/cvg/Hierarchical-Localization
