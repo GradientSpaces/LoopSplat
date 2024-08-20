@@ -20,7 +20,7 @@
 </p>
    <h3 align="center">
 
-   [![arXiv](https://img.shields.io/badge/arXiv-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/) [![ProjectPage](https://img.shields.io/badge/Project_Page-LoopSplat-blue)](https://loopsplat.github.io/)
+   [![arXiv](https://img.shields.io/badge/arXiv-2408.10154-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/) [![ProjectPage](https://img.shields.io/badge/Project_Page-LoopSplat-blue)](https://loopsplat.github.io/)
   <div align="center"></div>
 </p>
 
@@ -139,7 +139,7 @@ If you find our paper and code useful, please cite us:
       title={LoopSplat: Loop Closure by Registering 3D Gaussian Splats}, 
       author={Liyuan Zhu and Yue Li and Erik Sandström and Shengyu Huang and Konrad Schindler and Iro Armeni},
       year={2024},
-      eprint={},
+      eprint={2408.10154},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
