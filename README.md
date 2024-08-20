@@ -2,21 +2,29 @@
 
   <h2 align="center">LoopSplat: Loop Closure by Registering 3D Gaussian Splats</h2>
   <p align="center">
-    <a href="https://www.zhuliyuan.net/"><strong>Liyuan Zhu</strong></a>
+    <a href="https://www.zhuliyuan.net/"><strong>Liyuan Zhu</strong></a><sup>1</sup>
     ·
-    <a href="https://unique1i.github.io/"><strong>Yue Li</strong></a>
+    <a href="https://unique1i.github.io/"><strong>Yue Li</strong></a><sup>2</sup>
     ·
-    <a href="https://scholar.google.com/citations?user=phiETm4AAAAJ&hl=en/"><strong>Erik Sandström</strong></a>
+    <a href="https://scholar.google.com/citations?user=phiETm4AAAAJ&hl=en/"><strong>Erik Sandström</strong></a><sup>3</sup>
     ·
-    <a href="https://shengyuh.github.io/"><strong>Shengyu Huang</strong></a>
-    .
-    <a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html/"><strong>Konrad Schindler</strong></a>
-    .
-    <a href="https://ir0.github.io/"><strong>Iro Armeni</strong></a>
-  </p>
-   <h3 align="center"><a href="http://arxiv.org/">Paper</a> | <a href="https://loopsplat.github.io">Project Page</a> 
+    <a href="https://shengyuh.github.io/"><strong>Shengyu Huang</strong></a><sup>3</sup>
+    ·
+    <a href="https://prs.igp.ethz.ch/group/people/person-detail.schindler.html/"><strong>Konrad Schindler</strong></a><sup>3</sup>
+    ·
+    <a href="https://ir0.github.io/"><strong>Iro Armeni</strong></a><sup>1</sup>
+</p>
+
+<p align="center">
+    <sup>1</sup>Stanford University · <sup>2</sup>University of Amsterdam · <sup>3</sup>ETH Zurich
+</p>
+   <h3 align="center">
+
+   [![arXiv](https://img.shields.io/badge/arXiv-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/) [![ProjectPage](https://img.shields.io/badge/Project_Page-LoopSplat-blue)](https://loopsplat.github.io/)
   <div align="center"></div>
 </p>
+
+
 
 <p align="center">
   <a href="">
