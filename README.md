@@ -125,17 +125,17 @@ Here we elaborate on how to load the necessary data, configure Gaussian-SLAM for
   Please note the evaluation of ```depth_L1``` metric requires reconstruction of the mesh, which in turns requires headless installation of open3d if you are running on a cluster.
   
   ## 📧 Contact
-  If you have any questions regarding this project, please contact Liyuan Zhu (liyzhu@stanford.edu).
+  If you have any questions regarding this project, please contact Liyuan Zhu (liyzhu@stanford.edu). If you want to use our intermediate results for qualitative comparisons, please reach out to the same email.
 
 # ✏️ Acknowledgement
-Our implementation is heavily based on <a href="https://vladimiryugay.github.io/gaussian_slam/index.html">Gaussian-SLAM</a> and <a href="https://github.com/muskie82/MonoGS">MonoGS</a>. We thank the authors for their open-source contributions. If you use the code that is based on their contribution, please cite them as well. We thank Jianhao Zheng for the help with datasets and Yue Pan for the fruitful discussion.<br>
+Our implementation is heavily based on <a href="https://vladimiryugay.github.io/gaussian_slam/index.html">Gaussian-SLAM</a> and <a href="https://github.com/muskie82/MonoGS">MonoGS</a>. We thank the authors for their open-source contributions. If you use the code that is based on their contribution, please cite them as well. We thank [Jianhao Zheng](https://jianhao-zheng.github.io/) for the help with datasets and [Yue Pan](https://github.com/YuePanEdward) for the fruitful discussion.<br>
 
 # 🎓 Citation
 
 If you find our paper and code useful, please cite us:
 
 ```bib
-@misc{zhu2024loopsplat,
+@misc{zhu2024_loopsplat,
       title={LoopSplat: Loop Closure by Registering 3D Gaussian Splats}, 
       author={Liyuan Zhu and Yue Li and Erik Sandström and Shengyu Huang and Konrad Schindler and Iro Armeni},
       year={2024},
