@@ -5,7 +5,7 @@ import sys
 import torch
 from einops import *
 
-sys.path.append("thridparty/Hierarchical-Localization")
+sys.path.append("thirdparty/Hierarchical-Localization")
 
 with contextlib.redirect_stderr(io.StringIO()):
     from hloc.extractors.netvlad import NetVLAD
