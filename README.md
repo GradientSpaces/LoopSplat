@@ -90,7 +90,9 @@ Here we elaborate on how to load the necessary data, configure Gaussian-SLAM for
   <!-- <details>
   <summary><b>Downloading the Data</b></summary> -->
   ### Downloading the Datasets
-  We tested our code on Replica, TUM_RGBD, ScanNet, and ScanNet++ datasets. We also provide scripts for downloading Replica nad TUM_RGBD. Install git lfs before using the scripts by running ```git lfs install```.
+  We tested our code on Replica, TUM_RGBD, ScanNet, and ScanNet++ datasets. We also provide scripts for downloading Replica and TUM_RGBD in `scripts` folder. Install git lfs before using the scripts by running ```git lfs install```.
+
+  For reconstruction evaluation on <b>Replica</b>, we follow [Co-SLAM](https://github.com/JingwenWang95/neural_slam_eval?tab=readme-ov-file#datasets) mesh culling protocal, please use their code to processing the meshes first.
 
   For downloading ScanNet, follow the procedure described on <a href="http://www.scan-net.org/">here</a>.<br>
   <b>Pay attention! </b> There are some frames in ScanNet with `inf` poses, we filter them out using the jupyter notebook `scripts/scannet_preprocess.ipynb`. Please change the path to your ScanNet data and run the cells.
