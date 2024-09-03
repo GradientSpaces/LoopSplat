@@ -186,7 +186,16 @@ def gaussian_registration(src_dict, tgt_dict, config: dict, visualize=False):
     prob = 1/residuals / (1/residuals).sum()
     
     M = torch.sum(prob[:, None, None] * pred_tsfms[:,:3,:3], dim=0)
-    R_w = roma.special_procrustes(M)
+    try:
+        R_w = roma.special_procrustes(M)
+    except Exception as e:
+        print(f"Error in roma.special_procrustes: {e}")
+        return {
+            'successful': False,
+            "pred_tsfm": torch.eye(4).cuda(),
+            "gt_tsfm": torch.eye(4).cuda(),
+            "overlap": init_overlap.item()
+        }
     t_w = torch.sum(prob[:, None] * pred_tsfms[:,:3, 3], dim=0)
     
     best_tsfm = torch.eye(4).cuda().float()
