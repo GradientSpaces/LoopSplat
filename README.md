@@ -70,7 +70,8 @@ To find the <i>gcc path</i> and <i>g++ path</i> on your machine you can use <i>w
 Then setup environment from the provided conda environment file,
 
 ```
-conda env create -f environment.yml
+conda create -n loop_splat -c nvidia/label/cuda-12.1.0 cuda=12.1 cuda-toolkit=12.1 cuda-nvcc=12.1
+conda env update --file environment.yml --prune
 conda activate loop_splat
 ```
 
@@ -81,7 +82,7 @@ python -m pip install -e .
 cd ../..
 ```
 
-We tested our code on RTX3090 and RTX A6000 GPUs respectively and Ubuntu22 and CentOS7.5.
+We tested our code on RTX4090 and RTX A6000 GPUs respectively and Ubuntu22 and CentOS7.5.
 
 ## 🚀 Usage
 
