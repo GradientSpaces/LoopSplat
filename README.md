@@ -15,7 +15,7 @@
     <a href="https://ir0.github.io/"><strong>Iro Armeni</strong></a><sup>1</sup>
 </p>
 
-<p align="center"><strong>3DV 2025</strong></a>
+<p align="center"><strong>International Conference on 3D Vision (3DV) 2025</strong></a>
 <p align="center">
     <sup>1</sup>Stanford University · <sup>2</sup>University of Amsterdam · <sup>3</sup>ETH Zurich
 </p>
